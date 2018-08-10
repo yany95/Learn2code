@@ -29,6 +29,7 @@ public class Bubble_Sort {
     }
     public static void main(String[] args){
         int a[]={1,3,8,8,-2,4,3,2,7,8};
+        bubble_sort(a);
         for(int x:a){
             System.out.println(x);
         }
